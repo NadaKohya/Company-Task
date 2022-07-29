@@ -1,0 +1,44 @@
+.container{
+    height: 21.1em;
+    background-color: #DC4298;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em 0em 5em;
+    color: white;
+    margin: 3em 0em 4em 0em;
+}
+h1{
+width:85%;
+font-size: 2.3em;
+line-height: 1.5;
+}
+button{
+    background-color: white;
+    border: 1.5px solid #DC4298;
+    border-radius: .8em;
+    color:#DC4298;
+    font-size: .9em;
+    font-weight: 600;
+    width: 20%;
+    height: 15%;
+    margin-top: .6em;
+    text-align: center;
+    cursor: pointer;
+}
+.right{
+    position: relative;
+    width: 67em;
+    height: 21em;
+    overflow: hidden;
+}
+.circle{
+    border-radius: 100%;
+    width: 31em;
+    height: 31em;
+    bottom: 0em;
+    background-color: #d2388f;
+}
+img{
+    z-index: 9999;
+    position: absolute;
+}

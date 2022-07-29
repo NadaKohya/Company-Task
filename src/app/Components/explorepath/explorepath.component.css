@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 4em;
+}
+.left{
+    width: 50%;
+}
+.mainText{
+padding: 1em 1em 0em 0em;
+font-weight: 600;
+font-size: 4em;
+line-height: 135%;
+}
+.subText{
+    font-size: 1.3em;
+    padding: 0em 0em 1.8em;
+    font-weight: 350;
+    line-height: 1.3;
+}
+.curve{
+    width: 60%; 
+    height: 3em;
+    border: solid 5px #000;
+    border-color: #FAD6A1 transparent transparent transparent;
+    border-radius: 60%/2em 2em 0 0;
+}
+button{
+    background-color: #DC4298;
+    border: 1.5px solid #DC4298;
+    border-radius: .5em;
+    color: white;
+    font-size: .9em;
+    font-weight: 600;
+    width: 20%;
+    height: 3.3em;
+    text-align: center;
+    cursor: pointer;
+}
+.button{
+    width: 100%;
+    display: flex;
+}
+.Images{
+    height: 3em;
+    width: 3em;
+    border: 1px solid #F1B1D5;
+    border-radius: 95%; 
+    position: absolute;
+}
+.person1{
+left: 15em;
+}
+.person2{
+left: 17em;
+}
+.person3{
+ left: 19em;
+}
+h6{
+    font-weight: 100;
+    margin-left: -7em;
+}
+img{
+width: 35em;
+height: 34em;
+}

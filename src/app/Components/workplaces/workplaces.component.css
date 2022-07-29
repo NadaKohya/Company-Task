@@ -1,0 +1,23 @@
+h4{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 4em 0em 4em ;
+    overflow: hidden;
+}
+.row1>img{
+    height: 5em;
+    width: 8em;
+}
+.row2>img{
+    height: 3em;
+    width: 6em;
+}
+.row3>img{
+    height: 5em;
+    width: 8em;
+}

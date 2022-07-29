@@ -1,0 +1,43 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 4em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.leftContainer{
+    position: relative;
+}
+img{
+    width: 68%;
+    border-radius: 1em;
+}
+.imageText{
+    position: absolute;
+    padding-left: 1.5em;
+    bottom: 1em;
+    color: white;
+    line-height: .5;
+}
+.rightContainer{
+    width: 240%;
+    margin-left: -8em;
+}
+h1{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.3em;
+    color: #4D4D4D;
+}
+button{
+    background-color: #DC4298;
+    border: 1.5px solid #DC4298;
+    border-radius: .5em;
+    color: white;
+    font-size: .9em;
+    font-weight: 600;
+    width: 35%;
+    height: 3.3em;
+    text-align: center;
+    cursor: pointer;
+}

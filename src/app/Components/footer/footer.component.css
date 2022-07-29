@@ -1,0 +1,44 @@
+.container{
+    padding: 6em 2em 4em 5em;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 4.6em;
+}
+span{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.col-1-details{
+    display: flex;
+    margin-left: -2.5em;
+}
+.col-2>span, .col-3>span{
+    margin-left: 2em;
+}
+ul{
+    list-style:none ;
+    color: #4D4D4D;
+    font-weight: 100;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color:#086BED;
+}
+.lorem{
+    width: 70%;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.copyWrite{
+    height: 3em;
+    background-color: #0A0A0A;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 1.9em;
+}

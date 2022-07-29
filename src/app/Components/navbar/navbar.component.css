@@ -1,0 +1,60 @@
+.header{
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 4em;
+    color:#313273;
+}
+img{
+    height: 3.5em;
+}
+span{
+    line-height: 1.85;
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: .3em;
+    position: absolute;
+}
+.menu{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1em;
+   width:50%;
+   font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color:#313273;
+    font-weight: 400;
+}
+.active{
+  font-weight: 700;
+}
+.btnClick{
+    background-color: white;
+    border: 1.5px solid #DC4298;
+    border-radius: .4em;
+    color:#DC4298;
+    font-size: .9em;
+    font-weight: 600;
+    width: 20%;
+    margin-top: -.3em;
+    height: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+  input[type="checkbox"]{
+    display: none;
+  }
+  .container{
+    display: none;
+    background: #fff;
+    position: absolute;
+    width: 40em;
+    left:12em;
+    top:3em;
+    border: 3px solid #DC4298;
+  }
+  #show:checked ~ .container{
+    display: block;
+  }

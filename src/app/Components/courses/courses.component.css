@@ -1,0 +1,41 @@
+.container{
+    padding: 4.5em;
+}
+.active{
+    color: white;
+    background-color: #DC4298;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+
+a{
+text-decoration: none;
+color:black;
+font-weight: 100;
+border: 1px solid;
+padding: .5em;
+border-radius: 100px;
+}
+.container>.router{
+    padding: 1em;
+    border-top: .2px solid rgba(145, 142, 142, 0.676);
+    margin-top: 2em;
+}
+button{
+    background-color: white;
+    border: 1.5px solid #DC4298;
+    border-radius: .4em;
+    color:#DC4298;
+    font-size: .5em;
+    font-weight: 500;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: space-between;
+}

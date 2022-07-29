@@ -1,0 +1,90 @@
+{
+    "courses": [
+      { 
+        "id": 1,
+        "name": "Product Management",
+        "type": "Basic-course",
+        "description":"Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+        "image":"../../../assets/ProductManagement.png",
+        "category":"ProductManagement"
+    },
+    { 
+        "id": 2,
+        "name": "Front End Developer",
+        "type": "Basic",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/FrontEnd.png",
+        "category":"WebDevelopment"
+    },
+    { 
+        "id": 3,
+        "name": "Back End Developer",
+        "type": "Basic",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/BackEnd.png",
+        "category":"WebDevelopment"
+    },
+    { 
+        "id": 4,
+        "name": "UX Design",
+        "type": "Brainstorming",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/Ux.png",
+        "category":"UXUI"
+    },
+    { 
+        "id": 5,
+        "name": "UI Design",
+        "type": "Sketch",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/UI.png",
+        "category":"UIUX"
+    },
+    { 
+        "id": 6,
+        "name": "Graphic Design",
+        "type": "Fundamental Design",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/Graphic.png",
+        "category":"Branding"
+    },
+    { 
+        "id": 7,
+        "name": "Logo Design",
+        "type": "Basic",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/Branding.webp",
+        "category":"Branding"
+    },
+    { 
+        "id": 8,
+        "name": "Flutter",
+        "type": "Basic",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fugiat, magnam dolor perspiciatis error ipsum debitis.magnam dolor perspiciatis error ipsum debitis.",
+        "image":"../../../assets/Flutter.jpeg",
+        "category":"MobileDevelopment"
+    }
+],
+"categories": [
+    {
+    "id":1,
+"name":"UIUX"
+},
+{
+    "id":2,
+"name":"ProductManagement"
+},
+{
+    "id":3,
+"name":"Branding"
+},
+{
+    "id":4,
+"name":"MobileDevelopment"
+},
+{
+    "id":5,
+"name":"WebDevelopment"
+}
+]
+}
